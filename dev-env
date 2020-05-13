@@ -1,0 +1,8 @@
+## 이번 스터디 개발환경 ##
+anaconda 사용
+conda create -n ai_study python=3.7
+conda activate ai_study
+conda install pandas  // pandas 1.0.3 이 설치됨
+// pandas 를 설치하면 numpy는 자동 설치 (dependency 있음0
+pip install tensorflow  // tensorflow 2.2.0 설치됨
+conda install jupyter notebook
